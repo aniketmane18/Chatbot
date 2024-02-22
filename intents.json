@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting DYPCET",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting DYPCET website",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "College information",
+        "About college",
+        "college Details"
+      ],
+      "responses": [
+        "D Y Patil College of Engineering and Technology Kolhapur. Is an autonomous engineering institute in Kolhapur, Established in 1984."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "What is the vision of college?",
+        "College vision"
+      ],
+      "responses": [
+        "To become a leading institute in producing high quality technical professionals for Nation Building."
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What are the Features of College?",
+        "Features",
+        "College Features"
+      ],
+      "responses": [
+        "Here are Few Features of college: WIFI enable campus, Excellent placement record, 10000+ worldwide alumni record, All Govt. Scholarships available to student, Bus facility available"
+      ]
+    },
+    {
+      "tag": "why",
+      "patterns": [
+        "Why this college?",
+        "Why DYPCET?",
+        "Why Choose dyp?"
+      ],
+      "responses": [
+        "Following are the reasons behind why you must choose DYPCET, Industry based curriculum under Autonomy, Highest placement record in the region, Soft skills training, 42 Gold Medals and 252 Ranks in Shivaji University Exam"
+      ]
+    },
+    {
+      "tag": "Programs",
+      "patterns": [
+        "Which Programs are available?",
+        "What are the Branches available?",
+        "list of Programs",
+        "list of branches"
+      ],
+      "responses": [
+        "Following Under graduate Programs are offered by college: 1)Chemical Engineering 2)Civil Engineering 3)Computer Science and Engineering 4)CSE(Data Science) 5)CSE(Artificial Inteligence and Machine Learning) 6)Electronics and Telecommunication Engineering 7)Mechanical Engineering"
+      ]
+    },
+    {
+      "tag": "Exam",
+      "patterns": [
+        "Exam Pattern?",
+        "Semester Pattern",
+        "Exams",
+        "list of branches"
+      ],
+      "responses": [
+        "Exam Patten is as Follows ISE1-10M MSE-30M ISE2-10M ESE-50M"
+      ]
+    }
+  ]
+}
